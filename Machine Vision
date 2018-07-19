@@ -1,0 +1,19 @@
+****************************
+In my opinion, machine vision mainly worked with the images which captured by a machine vision camera, like network camera and IP(Internet Protocal) camera. 
+
+In a machine vision system, you basically have an industrial camera and a PC whihc are linked together. 
+
+The most popular link type is GigE(Gigabit Ethernet/千兆以太网) because of the stable protocal, far transfering distance(up to 100m) and less CPU memory. However, you must have a GigE Interface card to support this link. USB3.0 is also a good choice which has bigger bandwidth(350 MB/s versus 100 MB/s),but it works with cable length only up to 8m.
+
+If you need to set up a machine vision system, you need to choose a camera according to your task. So how to choose a correct camera? 
+1. camera types
+machine vision      &      Surveillance 
+ automation                  traffic
+industrial camera            IP camera
+ 
+Area scan          &            Linear scan
+in-depth inspection    applications with a high-speed conveyor belt(高速传送带) 
+
+CMOS   &     CCD
+we al
+and calibrate your camera to verify distortion(畸变).
